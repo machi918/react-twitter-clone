@@ -9,10 +9,9 @@ function TweetInput() {
             <form>
                 <div className='input-box'>
                     <Avatar src={avatar} alt="Avatar"/>
-                    <input type='textarea' required placeholder='¿Qué está pasando?'></input>
-                    <button name='Tweetear'>Tweetear</button>
-
+                    <input type='textarea' required placeholder='¿Qué está pasando?' className='input'></input>
                 </div>
+                <button name='Tweetear' className='button-input'>Twittear</button>
             </form>
             
             

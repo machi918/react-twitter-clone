@@ -12,22 +12,22 @@ import FlashOnIcon from '@material-ui/icons/FlashOn';
 
 const Sidebar = (() => {
     return (
-        <div className='sidebar'> 
-            {<TwitterIcon/>}
-            <SidebarOption text='Home' Icon={HomeIcon}/>
-            <SidebarOption text='Explorar' Icon={SearchIcon}/>
-            <SidebarOption text='Notificaciones' Icon={NotificationsIcon}/>
-            <SidebarOption text='Mensajes' Icon={ChatIcon}/>
-            <SidebarOption text='Listas' Icon={TocIcon}/>
-            <SidebarOption text='Elementos guardados' Icon={BookmarksIcon}/>
-            <SidebarOption text='Momentos' Icon={FlashOnIcon}/>
+        <div className='container'>
+            {/* <div className='space'></div> */}
+            <div className='sidebar'> 
+                {<TwitterIcon/>}
+                <SidebarOption text='Home' Icon={HomeIcon}/>
+                <SidebarOption text='Explorar' Icon={SearchIcon}/>
+                <SidebarOption text='Notificaciones' Icon={NotificationsIcon}/>
+                <SidebarOption text='Mensajes' Icon={ChatIcon}/>
+                <SidebarOption text='Listas' Icon={TocIcon}/>
+                <SidebarOption text='Guardados' Icon={BookmarksIcon}/>
+                <SidebarOption text='Momentos' Icon={FlashOnIcon}/>
 
-            <button className='tweet-button'>
-                <span>Tweetear</span>
-            </button>
-
-            
-            
+                <button className='tweet-button'>
+                    <span>Twittear</span>
+                </button>
+            </div>
         </div>
     )
 });

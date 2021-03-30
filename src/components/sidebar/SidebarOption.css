@@ -8,6 +8,7 @@
 .sidebarOption:hover{
     background-color: #e8f5f3;
     color: var(--background-color-tweeter);
+    border-radius:120px;
 }
 
 .sidebarOption > .MuiSvgIcon-root{
@@ -17,7 +18,7 @@
 
 .sidebarOption > h2{
     font-weight: 800;
-    font-size: 20px;
+    font-size: 17px;
     
 }
 
