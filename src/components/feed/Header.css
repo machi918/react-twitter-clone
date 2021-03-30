@@ -1,0 +1,10 @@
+.header{
+    border-bottom: 1px solid var(--background-line-color);
+
+}
+
+.header > h2{
+    padding: 0;
+    margin: 10px 0px 10px 10px;
+
+}

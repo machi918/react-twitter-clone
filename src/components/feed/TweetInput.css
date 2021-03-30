@@ -1,0 +1,9 @@
+.tweetInput{
+    border-bottom: 1px solid var(--background-line-color);
+}
+
+.input-box{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+}

@@ -1,0 +1,23 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    cursor: pointer;
+}
+
+.sidebarOption:hover{
+    background-color: #e8f5f3;
+    color: var(--background-color-tweeter);
+}
+
+.sidebarOption > .MuiSvgIcon-root{
+    /* .MuiSvgIcon-root nombre de iconos child. Encontrado inspeccionando */
+    padding: 10px;
+}
+
+.sidebarOption > h2{
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+
