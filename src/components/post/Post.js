@@ -13,7 +13,7 @@ function Post({name, username, verified ,avatar, image, text}) {
             </div>
             <div className='post-body'>
                 <p>{text}</p>
-                <image src={image}></image>
+                <img src={image == null ? '' : image}></img>
             </div>
             
         </div>

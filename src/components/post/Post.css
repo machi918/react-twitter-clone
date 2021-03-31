@@ -1,6 +1,7 @@
 .post{
     border-bottom: 1px solid var(--background-line-color);
     padding: 10px;
+    max-width: inherit;
 }
 
 .post-header{
@@ -29,9 +30,17 @@ h4 > .MuiSvgIcon-root{
 }
 
 .post-body{
-
+    width: inherit;
+    max-height: 400px;
     
 }
+
+.post-body > img{
+    margin-top: 10px;
+    max-width: 450px;
+    background-size: cover;    
+}
+
 
 .post-body > p{
     margin: 0;

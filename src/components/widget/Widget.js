@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import './Widget.css'
 
 const Widget = () => {
     return (
-        <div>
+        <div className='container-widget'>
             <h2>Widgets</h2>
             
         </div>

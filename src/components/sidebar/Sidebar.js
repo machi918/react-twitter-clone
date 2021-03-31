@@ -25,6 +25,7 @@ const Sidebar = (() => {
                 <SidebarOption text='Momentos' Icon={FlashOnIcon}/>
 
                 <button className='tweet-button'>
+                    <TwitterIcon className='twitter-button'/>
                     <span>Twittear</span>
                 </button>
             </div>

@@ -6,9 +6,9 @@ import Widget from './components/widget/Widget'
 function App() {
   	return (
     	<div className="app">
-			<Sidebar/>
-			<Feed/>
-			<Widget/>	
+			<Sidebar className='sidebar'/>
+			<Feed className='feed'/>
+			<Widget className='widget'/>	
     	</div>
   	);
 }

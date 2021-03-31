@@ -1,0 +1,10 @@
+.container-widget{
+    flex: 0.3;
+}
+
+
+@media (max-width: 1000px){
+	.container-widget{
+        display: none;
+    }
+}
