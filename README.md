@@ -1,3 +1,13 @@
+¡Bienvenido! He creado este clon básico de Twiter utilizado el framework de React. 
+
+Actualmente, el funcionamiento con la base de datos de Firebase se encuentra dado de baja, por lo tanto no será una buena experiencia para el usuario. El proyecto queda deprecado hasta que pueda hacerlo funcionar de forma ilimitada.
+
+Sin embargo, sientase libre de ver / utilizar el código para su proyecto o por curiosidad.
+
+¡Muchas gracias!
+
+-----------------------------------------------------------------------------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
