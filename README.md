@@ -8,6 +8,7 @@ Sin embargo, sientase libre de ver / utilizar el código para su proyecto o por 
 
 Ante la duda o cualquier cosa, puede contactarme por este medio o:
 -Linked-in: https://www.linkedin.com/in/matias-pinto/
+
 -Correo electrónico: mati.d.pinto@gmail.com
 
 -----------------------------------------------------------------------------------------------------
